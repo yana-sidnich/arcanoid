@@ -1,0 +1,273 @@
+**************************
+****   Check no.0 :
+**************************
+>   ant -Dargs="99" run1
+Your output :
+Buildfile: C:\Users\EhudV\Desktop\ass1\build.xml
+
+compile:
+    [mkdir] Created dir: C:\Users\EhudV\Desktop\ass1\bin
+    [javac] Compiling 3 source files to C:\Users\EhudV\Desktop\ass1\bin
+
+run1:
+     [java] 42.4
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+**************************
+****   Check no.1 :
+**************************
+>   java -cp bin AveragePrimes 2
+Your output :
+2.0
+**************************
+****   Check no.2 :
+**************************
+>   java -cp bin AveragePrimes 3
+Your output :
+2.5
+**************************
+****   Check no.3 :
+**************************
+>   java -cp bin AveragePrimes 9
+Your output :
+4.25
+**************************
+****   Check no.4 :
+**************************
+>   java -cp bin AveragePrimes 13
+Your output :
+6.833333333333333
+**************************
+****   Check no.5 :
+**************************
+>   java -cp bin AveragePrimes 5
+Your output :
+3.3333333333333335
+**************************
+****   Check no.6 :
+**************************
+>   java -cp bin AveragePrimes -2
+Your output :
+Invalid value
+**************************
+****   Check no.7 :
+**************************
+>   java -cp bin AveragePrimes -1
+Your output :
+Invalid value
+**************************
+****   Check no.8 :
+**************************
+>   java -cp bin AveragePrimes 0
+Your output :
+Invalid value
+**************************
+****   Check no.9 :
+**************************
+>   java -cp bin AveragePrimes 1
+Your output :
+Invalid value
+**************************
+****   Check no.10 :
+**************************
+>   ant -Dargs="3 5 4" run2
+Your output :
+Buildfile: C:\Users\EhudV\Desktop\ass1\build.xml
+
+compile:
+
+run2:
+     [java] triangle!
+     [java] right angled!
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+**************************
+****   Check no.11 :
+**************************
+>   java -cp bin TriangleCheck 1.2 0.5 1.3
+Your output :
+triangle!
+**************************
+****   Check no.12 :
+**************************
+>   java -cp bin TriangleCheck 6 3 4
+Your output :
+triangle!
+**************************
+****   Check no.13 :
+**************************
+>   java -cp bin TriangleCheck 3 12 4
+Your output :
+not triangle
+**************************
+****   Check no.14 :
+**************************
+>   java -cp bin TriangleCheck 6 3 3
+Your output :
+not triangle
+**************************
+****   Check no.15 :
+**************************
+>   java -cp bin TriangleCheck -3 -4 -5
+Your output :
+Invalid input
+**************************
+****   Check no.16 :
+**************************
+>   java -cp bin TriangleCheck 4 4 0
+Your output :
+Invalid input
+**************************
+****   Check no.17 :
+**************************
+>   java -cp bin TriangleCheck -1.2 1 0
+Your output :
+Invalid input
+**************************
+****   Check no.18 :
+**************************
+>   java -cp bin TriangleCheck 0 0 0
+Your output :
+Invalid input
+**************************
+****   Check no.19 :
+**************************
+>   java -cp bin TriangleCheck 1 2
+Your output :
+Invalid input
+**************************
+****   Check no.20 :
+**************************
+>   java -cp bin TriangleCheck 1
+Your output :
+Invalid input
+**************************
+****   Check no.21 :
+**************************
+>   java -cp bin TriangleCheck
+Your output :
+Invalid input
+**************************
+****   Check no.22 :
+**************************
+>   ant -Dargs="henry is thinking on muffins f" run3
+Your output :
+Buildfile: C:\Users\EhudV\Desktop\ass1\build.xml
+
+compile:
+
+run3:
+     [java] muffins
+     [java] henry
+     [java] is
+     [java] thinking
+     [java] on
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+**************************
+****   Check no.23 :
+**************************
+>   java -cp bin CharCount helloPc hello2u helloworld 2B2  2uhello u2hello hello2u hello2u hello2u 2 22 2
+Your output :
+hello2u
+2B2
+2uhello
+u2hello
+hello2u
+hello2u
+hello2u
+2
+22
+helloPc
+helloworld
+**************************
+****   Check no.24 :
+**************************
+>   java -cp bin CharCount hello world big lovely day l
+Your output :
+hello
+world
+lovely
+big
+day
+**************************
+****   Check no.25 :
+**************************
+>   java -cp bin CharCount hello world big lovely daY Y
+Your output :
+daY
+hello
+world
+big
+lovely
+**************************
+****   Check no.26 :
+**************************
+>   java -cp bin CharCount hello world big lovely day Y
+Your output :
+hello
+world
+big
+lovely
+day
+**************************
+****   Check no.27 :
+**************************
+>   java -cp bin CharCount Hello world @
+Your output :
+Hello
+world
+**************************
+****   Check no.28 :
+**************************
+>   java -cp bin CharCount Hello w
+Your output :
+Hello
+**************************
+****   Check no.29 :
+**************************
+>   java -cp bin CharCount Hello world ds
+Your output :
+Invalid input
+**************************
+****   Check no.30 :
+**************************
+>   java -cp bin CharCount Hello world
+Your output :
+Invalid input
+**************************
+****   Check no.31 :
+**************************
+>   java -cp bin CharCount hello
+Your output :
+Invalid input
+**************************
+****   Check no.32 :
+**************************
+>   java -cp bin CharCount h
+Your output :
+Invalid input
+**************************
+****   Check no.33 :
+**************************
+>   java -cp bin CharCount
+Your output :
+Invalid input
+**************************
+****   Check no.34 :
+**************************
+>   ant check
+Your output :
+Buildfile: C:\Users\EhudV\Desktop\ass1\build.xml
+
+check:
+     [java] Starting audit...
+     [java] Audit done.
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+################## 
+Checking finished!
